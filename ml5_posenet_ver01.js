@@ -30,9 +30,9 @@ function setup() {
 
 function draw() {
   background(51);
-  //translate(width,0); // move to far corner
-  //scale(-1.0,1.0);    // flip x-axis backwards
-  image(video, 0, 0, width, height);
+  translate(width,0); // move to far corner
+  scale(-1.0,1.0);    // flip x-axis backwards
+  //image(video, 0, 0, width, height);
 
   // We can call both functions to draw all keypoints and the skeletons
   drawKeypoints();
